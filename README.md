@@ -1,0 +1,2 @@
+# clean-architecture
+This project features my thoughts around clean architecture from uncle bob. Though I did not follow clean architecture 100% but many of ideas of clean architecture like dependency inversion principle are involved. I've also followed KISS and allowed a bit of technical debt in core package. I followed Domain Driven Design while working with core package. Patterns like repository, entity and service are straight from DDD. The project is created using spring boot and spring rest is used as well. It is a running project.

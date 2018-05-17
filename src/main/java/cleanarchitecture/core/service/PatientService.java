@@ -25,6 +25,7 @@ public class PatientService {
 		return patientRepo.save(patient);
 	}
 
+	
 	public Patient updatePatient(Patient patient, Optional<FileInfo> image) {
 		if(image.isPresent())
 			patient.setProfileImage(image.get(), imageSaver);
